@@ -24,8 +24,8 @@
     $mail->isSMTP();
     $mail->Host = "smtp.gmail.com";
     $mail->SMTPAuth = true;
-    $mail->Username = "canoguzorhan066@gmail.com";
-    $mail->Password = "dlejxcoerlverfnk";
+    $mail->Username = "";
+    $mail->Password = "";
     $mail->SMTPSecure = "ssl"; // ssl tls seçildiğinde 587 seçmeliymişim.
     $mail->Port = 465; // 25, 465, 587
   

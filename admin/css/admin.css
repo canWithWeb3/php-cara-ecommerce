@@ -1,0 +1,7 @@
+:root{
+  --primary: #2F938D;
+}
+
+.form-control:focus, .form-control:active{
+  box-shadow: none !important;
+}

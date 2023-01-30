@@ -1,0 +1,25 @@
+.sidebar{
+  background-color: var(--primary);
+  min-width: 240px;
+  height: 100vh;
+}
+
+.sidebar-body ul li a{
+  display: block;
+  width: 100%;
+  padding: 5px 15px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  transition: all 0.3s ease;
+}
+
+.sidebar-body ul li a:hover{
+  background-color: white;
+  color: var(--primary);
+}
+
+.sidebar-main{
+  width: 100%;
+  background-color: #efefef;
+}

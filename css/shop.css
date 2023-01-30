@@ -1,0 +1,11 @@
+.shop-filter{
+  min-width: 280px;
+  max-width: 280px;
+}
+
+@media (max-width:1020px) {
+  .shop-filter{
+    display: block !important;
+    width: 100% !important;
+  }
+}

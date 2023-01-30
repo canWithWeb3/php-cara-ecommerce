@@ -1,0 +1,10 @@
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}\.php -f 
+RewriteRule ^(.*)$ $1.php
+
+RewriteRule ^product-detail/([A-Za-z0-9_-]+)    ./product-detail.php?slug=$1     [L,QSA]
+
+# ErrorDocument 404 http://localhost/cara/404page
